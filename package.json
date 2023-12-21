@@ -4,15 +4,15 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-    "prestart": "chmod +x node_modules/.bin/nodemon",
+		"prestart": "chmod +x node_modules/.bin/nodemon",
 		"start": "nodemon index.js"
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
-  "bin" : {
-    "execute" : "index.js"
-  },
+	"bin": {
+		"execute": "index.js"
+	},
 	"dependencies": {
 		"bcrypt": "^5.1.1",
 		"body-parser": "^1.20.2",
