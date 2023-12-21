@@ -54,6 +54,7 @@ router.post(`/login`, async (req, res) => {
       .cookie("accessToken", token, {
         httpOnly: false,
         secure: true,
+        sameSite: "none",
       })
       .status(200)
       .send({ status: true, userWithoutPassword });
